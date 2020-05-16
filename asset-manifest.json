@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/mileage.in/static/css/main.d523364e.chunk.css",
+    "main.js": "/mileage.in/static/js/main.142ada85.chunk.js",
+    "main.js.map": "/mileage.in/static/js/main.142ada85.chunk.js.map",
+    "runtime-main.js": "/mileage.in/static/js/runtime-main.b04d062d.js",
+    "runtime-main.js.map": "/mileage.in/static/js/runtime-main.b04d062d.js.map",
+    "static/js/2.4e5837c3.chunk.js": "/mileage.in/static/js/2.4e5837c3.chunk.js",
+    "static/js/2.4e5837c3.chunk.js.map": "/mileage.in/static/js/2.4e5837c3.chunk.js.map",
+    "index.html": "/mileage.in/index.html",
+    "precache-manifest.9fb3577faed8a7bc36936cf17a88a44d.js": "/mileage.in/precache-manifest.9fb3577faed8a7bc36936cf17a88a44d.js",
+    "service-worker.js": "/mileage.in/service-worker.js",
+    "static/css/main.d523364e.chunk.css.map": "/mileage.in/static/css/main.d523364e.chunk.css.map",
+    "static/js/2.4e5837c3.chunk.js.LICENSE.txt": "/mileage.in/static/js/2.4e5837c3.chunk.js.LICENSE.txt",
+    "static/media/artwork.svg": "/mileage.in/static/media/artwork.e18b133e.svg",
+    "static/media/corporate-and-brand-public-relations.svg": "/mileage.in/static/media/corporate-and-brand-public-relations.13bb364a.svg",
+    "static/media/crisis-communictions.svg": "/mileage.in/static/media/crisis-communictions.df058f42.svg",
+    "static/media/event-management.svg": "/mileage.in/static/media/event-management.2c46115d.svg",
+    "static/media/influenser-and-blogger-engagement.svg": "/mileage.in/static/media/influenser-and-blogger-engagement.da3cf3d0.svg",
+    "static/media/logo.png": "/mileage.in/static/media/logo.90200bbb.png",
+    "static/media/marketing-management.svg": "/mileage.in/static/media/marketing-management.cf0b6987.svg",
+    "static/media/media-training.svg": "/mileage.in/static/media/media-training.e5d7b657.svg",
+    "static/media/reputation-management.svg": "/mileage.in/static/media/reputation-management.c4507a4a.svg",
+    "static/media/social-and-digital-marketing.svg": "/mileage.in/static/media/social-and-digital-marketing.f06da36e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b04d062d.js",
+    "static/js/2.4e5837c3.chunk.js",
+    "static/css/main.d523364e.chunk.css",
+    "static/js/main.142ada85.chunk.js"
+  ]
+}
