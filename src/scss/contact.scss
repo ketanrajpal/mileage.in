@@ -1,0 +1,55 @@
+section.contact {
+  width: 90%;
+  margin: auto;
+  padding: 50px 0;
+  letter-spacing: 0.5px;
+  h1 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 130%;
+    color: $primary_color;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  p {
+    margin-top: 20px;
+    width: 700px;
+    margin: 20px auto;
+    text-align: center;
+    line-height: 150%;
+    font-size: 20px;
+    padding-bottom: 30px;
+  }
+  section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    .contact {
+      padding: 10px 20px;
+      div {
+        margin: 10px 0;
+        font-size: 15px;
+        line-height: 180%;
+      }
+      &:nth-child(odd) {
+        background-color: rgba(121, 118, 118, 0.1);
+      }
+    }
+
+    h2 {
+      font-size: 15px;
+      text-transform: uppercase;
+      color: $secondary_color;
+      margin: 20px 0;
+    }
+    h3 {
+      font-size: 17px;
+      color: $primary_color;
+      span {
+        display: block;
+        font-size: 14px !important;
+        color: rgba(0, 0, 0, 0.5);
+        margin-top: 10px;
+      }
+    }
+  }
+}
