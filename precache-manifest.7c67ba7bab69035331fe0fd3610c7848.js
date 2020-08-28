@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "632c27ba557837d4d7545e2a76231df1",
+    "revision": "b2fca28e9a1fd7a223231e731e8d1fb2",
     "url": "/mileage.in/index.html"
   },
   {
-    "revision": "2b9af9c9b1487f5b6b4c",
-    "url": "/mileage.in/static/css/main.1ff1b9cd.chunk.css"
+    "revision": "514d4b27cc4a7285feb6",
+    "url": "/mileage.in/static/css/main.69a60bac.chunk.css"
   },
   {
-    "revision": "9a9c9426224c3492a216",
-    "url": "/mileage.in/static/js/2.36680d42.chunk.js"
+    "revision": "da2a8c08f13b13c0f098",
+    "url": "/mileage.in/static/js/2.d693ea5d.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/mileage.in/static/js/2.36680d42.chunk.js.LICENSE.txt"
+    "url": "/mileage.in/static/js/2.d693ea5d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2b9af9c9b1487f5b6b4c",
-    "url": "/mileage.in/static/js/main.78810d51.chunk.js"
+    "revision": "514d4b27cc4a7285feb6",
+    "url": "/mileage.in/static/js/main.a9d2f29e.chunk.js"
   },
   {
     "revision": "8929a5e4e3c193ba2dd9",
@@ -33,7 +33,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "13bb364a13363f7562ff1fb34c63f26f",
-    "url": "/mileage.in/static/media/corporate-and-brand-public-relations.13bb364a.svg"
+    "url": "/mileage.in/static/media/corporate-public-relations-and-brand-communications.13bb364a.svg"
   },
   {
     "revision": "ecf5b4acf5b1acb6f433eb893dccbe95",
@@ -44,16 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mileage.in/static/media/creative-and-innovative.a6555326.svg"
   },
   {
-    "revision": "df058f4224dcc22f1453e91296a2ba83",
-    "url": "/mileage.in/static/media/crisis-communications.df058f42.svg"
-  },
-  {
     "revision": "2f6b9c3d323080ea17680d5f0042cc49",
     "url": "/mileage.in/static/media/crisis-management.2f6b9c3d.jpg"
-  },
-  {
-    "revision": "f06da36ed201b11c771eeb75b11b7458",
-    "url": "/mileage.in/static/media/digital-marketing.f06da36e.svg"
   },
   {
     "revision": "2c46115dc81969085c3e261479f3386b",
@@ -68,12 +60,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mileage.in/static/media/healthcare-pharmaceutical-biotech.1edfc221.jpg"
   },
   {
-    "revision": "3dfa54e1417cb377e6d58b3880927cd6",
-    "url": "/mileage.in/static/media/information-technology.3dfa54e1.jpg"
+    "revision": "c4507a4ae839304337539985c4e7c776",
+    "url": "/mileage.in/static/media/influencer-and-blogger-engagement.c4507a4a.svg"
   },
   {
-    "revision": "da3cf3d0e7b65c6041a8935318969767",
-    "url": "/mileage.in/static/media/investor-relations.da3cf3d0.svg"
+    "revision": "3dfa54e1417cb377e6d58b3880927cd6",
+    "url": "/mileage.in/static/media/information-technology.3dfa54e1.jpg"
   },
   {
     "revision": "90200bbbfb09fea5c631404f55b4a12e",
@@ -85,11 +77,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "e5d7b657304a2ebfea64a9b95be4be9c",
-    "url": "/mileage.in/static/media/media-training.e5d7b657.svg"
+    "url": "/mileage.in/static/media/media-training-and-crisis-communication.e5d7b657.svg"
   },
   {
-    "revision": "c4507a4ae839304337539985c4e7c776",
-    "url": "/mileage.in/static/media/public-relations.c4507a4a.svg"
+    "revision": "df058f4224dcc22f1453e91296a2ba83",
+    "url": "/mileage.in/static/media/reputation-management.df058f42.svg"
   },
   {
     "revision": "28c3fc39059cf6ae9db83649c7b4c8e8",
@@ -102,6 +94,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3343496ec265752f6b6c44ad758d1349",
     "url": "/mileage.in/static/media/shipping.3343496e.jpg"
+  },
+  {
+    "revision": "f06da36ed201b11c771eeb75b11b7458",
+    "url": "/mileage.in/static/media/social-media-and-digital-marketing.f06da36e.svg"
   },
   {
     "revision": "ca88666cab92266ed7c187a70aff9d14",
