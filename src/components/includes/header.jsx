@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Logo from "../../assets/img/logo.png";
 
 const HeaderComponent = () => {
@@ -13,28 +13,28 @@ const HeaderComponent = () => {
         </div>
         <nav>
           <nav>
-            <Link to="/">
+            <NavLink to="/" activeClassName="current" exact={true}>
               <span className="fa fa-home"></span>Home
-            </Link>
-            <Link to="/about">
+            </NavLink>
+            <NavLink to="/about" activeClassName="current">
               <span className="fa fa-chess-rook"></span>About
-            </Link>
-            <Link to="/expertise">
+            </NavLink>
+            <NavLink to="/expertise" activeClassName="current">
               <span className="fa fa-chess"></span>Expertise
-            </Link>
-            <Link to="/team">
+            </NavLink>
+            <NavLink to="/team" activeClassName="current">
               <span className="fa fa-users"></span>Team
-            </Link>
-            <Link to="/contact">
+            </NavLink>
+            <NavLink to="/contact" activeClassName="current">
               <span className="fa fa-at"></span>Contact
-            </Link>
-            <a href="#">
+            </NavLink>
+            <a href="https://www.facebook.com/mileagecommunications" rel="noopener noreferrer" target="_blank">
               <span className="fab fa-facebook"></span>
             </a>
-            <a href="#">
+            <a href="https://www.instagram.com/mileagecommunication/" rel="noopener noreferrer" target="_blank">
               <span className="fab fa-instagram"></span>
             </a>
-            <a href="#">
+            <a href="https://www.linkedin.com/company/mileage-communications-india" rel="noopener noreferrer" target="_blank">
               <span className="fab fa-linkedin"></span>
             </a>
           </nav>

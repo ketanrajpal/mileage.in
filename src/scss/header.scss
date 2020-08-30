@@ -22,9 +22,15 @@
         letter-spacing: 1px;
         text-decoration: none;
         font-weight: 500;
+        padding-bottom: 8px;
+        border-bottom: 5px solid #ffffff;
         svg {
           margin-right: 10px;
           color: $secondary_color;
+        }
+        &:hover,
+        &.current {
+          border-bottom: 5px solid $primary_color;
         }
         &:nth-child(5) {
           margin-right: 50px;

@@ -4,46 +4,47 @@ export default () => {
   const services = () => {
     var data = [
       {
-        name: "Marketing Representation",
-        slug: "marketing-representation",
+        name: "Corporate Public Relations and Brand Communications",
+        slug: "corporate-public-relations-and-brand-communications",
         description:
-          "As marketing representatives, we strategize and implement marketing, public relations & joint- promotional activities that we represent. We currently undertake such activities for various International tourism boards like Hong Kong Tourism Board, Tourism Flanders, Japan National Tourism Board etc.",
+          "<p>Corporate and Brand Communications cover a wide range of activities. Mileage Communications India undertakes and offers expert advice on the following areas:</p><ul><li>Corporate Governance, Reputation Management and PR</li><li>Customer Communications</li><li>Corporate Social Responsibility communication</li><li>Issue and Crisis management</li><li>Special Projects, Public Affairs and Community Relations</li><li>Media Monitoring on traditional media, social media and other online communications channels</li><li>Marketing and Branding initiatives</li><li>Product Launches</li><li>Event Amplification and onsite PR</li><li>Leadership Profiling</li><li>Advice and profiling of Sustainability and Environmental compliances</li><li>Content production- including press releases/ notes; speaking points; influencer recruitment; video shoots, and negotiating with media houses/ platforms for required amplification</li></ul>",
       },
       {
-        name: "Public Relations",
-        slug: "public-relations",
+        name: "Social Media and Digital Marketing",
+        slug: "social-media-and-digital-marketing",
         description:
-          "All organizations, no matter how large or small, ultimately depends on its reputation for survival and success. Public relations is about reputation - the result of what you do, what you say and what others say about you- including earning understanding and support, and influencing opinion with important stakeholders. Customers, suppliers, employees, investors, regulators and other stakeholders need to be regularly addressed, mainly via media platforms. Mileage has a highly professional PR team located across India, and established ties with members of media based on mutual respect.",
+          "<p>Engagement with social media empowers companies and marketers to have a strategic approach. Mileage has a dedicated team working on the following:</p><ul><li>Social Media Intelligence: Social analytics and an overview of the macro and microenvironments.</li><li>Social Media Listening: Assessing the overall sentiment towards an organization and its actions.</li><li>Social Media Monitoring: Data analysis and assistance in building social media strategy.</li><li>Social Media Amplification: Devising unique communication strategies on corporate and brand promotions on social media platforms.</li><li>Social Media and Digital Marketing Consulting: Advice on getting the right expertise and vendors for larger online promotions.</li></ul>",
       },
       {
-        name: "Media Training",
-        slug: "media-training",
+        name: "Influencer and Blogger Engagement",
+        slug: "influencer-and-blogger-engagement",
         description:
-          "We conducts media training courses for CEOs, other senior management and the front office. Experienced trainers, many with journalistic backgrounds, conduct our training courses. The training is comprehensive, involving lots of practical sessions and backed by many examples of real case studies.",
+          "<p>In these changing times, social media has become as powerful a platform as conventional media. Breaking news is often spread via videos, photos and posts by individuals on their social handles, before the mainline channels pick it up, often compelling rapid corporate responses. Similarly celebrity and influencer endorsements of brands results in lasting impressions on target audiences.<br><br>Mileage can help you design successful campaigns with influencers that will help meet your branding and ROI needs and give you an edge over your competitors.<br><br>At the same time, if you are an influencer who is looking to connect with global brands whose values reflect your own, we can help you find the right fit.</p>",
+      },
+      {
+        name: "Media Training & Crisis Communication",
+        slug: "media-training-and-crisis-communication",
+        description:
+          "<p>We regularly conduct media training courses for CEOs, senior management and the front office. Experienced trainers, many with journalistic backgrounds, conduct our training courses. Our training is comprehensive, involving lots of practical sessions on how to deal with the media, backed by examples of real life case studies.<br><br>Mileage is a leader in the field of Crisis Communication & Management in India. As the Indian Partner of MTI Network- the world’s largest maritime crisis management network, we provide round-the-clock responses during any marine- or transport-related incident that is likely to attract unfavourable attention from the media. MTI currently provides crisis cover for over 7,000 vessels, including tankers, gas carriers, bulkers, container and passenger ships and has in recent years assisted during multiple high-profile marine emergencies around the globe.</p>",
+      },
+      {
+        name: "Reputation Management",
+        slug: "reputation-management",
+        description:
+          "<p>All organizations, no matter how large or small, ultimately depends on its reputation for survival and success. Public relations is about reputation - the result of what you do, what you say and what others say about you- including earning understanding and support, and influencing opinion with important stakeholders. Customers, suppliers, employees, investors, regulators and other stakeholders need to be regularly addressed, via media and other platforms.<br><br>Mileage has an independent team that keeps an ongoing watch on media coverage and social media posts concerning the clients we represent.. We proactively update and advise on issues that might affect their brand-value, market-standing and reputation.<br><br>Mileage has a highly professional PR team located across India, with established ties with members of media based on mutual respect.</p>",
       },
       {
         name: "Event Management",
         slug: "event-management",
         description:
-          "Mileage regularly organizes client events like press conferences, trade events,  product launches, gala evenings, other promotional events etc. via our third-party event management partners. Additionally such events are promoted by generating media coverage through our PR division.",
+          "<p>Mileage regularly conceptualizes and organizes events like press conferences, roadshows, trade events, product launches, gala evenings, other promotional events etc. via third-party event management partners. These events are also promoted and publicised via media coverage generated through our PR division.</p>",
       },
+
       {
-        name: "Digital Marketing",
-        slug: "digital-marketing",
+        name: "Marketing Representation",
+        slug: "marketing-representation",
         description:
-          "In today’s scenario, any marketing activity is incomplete without Digital marketing. Digital Marketing is a broad term that refers to various and different promotional techniques deployed to reach customers via internet and mobile platforms. Our sister company Strategic Research Marketing regularly undertakes digital promotional campaigns for our clients.",
-      },
-      {
-        name: "Investor Relations",
-        slug: "investor-relations",
-        description:
-          "Investor Relations involves communicating information on a company and the investment community, including media, to highlight the organization’s business activities, strategy and prospects. Mileage has a solid track record of handling financial relations, including taking companies to their successful public listings. Post-IPO, Mileage has been involved in investor relations for many local and foreign companies listed on the Singapore Exchange.",
-      },
-      {
-        name: "Crisis Communications",
-        slug: "crisis-communications",
-        description:
-          "Mileage India is a leading player in the field of Crisis Management in India. As Indian Partners of MTI Network- the worlds largest maritime crisis management network, we provide round the clock response in the event of any marine or transport related incident likely to attract unfavourable attention from the press. MTI currently provides crisis cover for over 7,000 vessels, including tankers, gas carriers, bulkers, container and passenger ships and has in recent years assisted with many of the high-profile marine emergencies in Asia Pacific, the USA and Europe.",
+          "As marketing representatives, we strategize and implement marketing, public relations & joint promotional activities for our clients. We currently undertake such activities for the Hong Kong Tourism Board and Visit Flanders in India.",
       },
     ];
     return (
@@ -52,17 +53,21 @@ export default () => {
           return (
             <article key={index}>
               <div>
-                <img src={require(`../assets/img/${service.slug}.svg`)} alt={service.name}></img>
+                <img src={require(`../assets/img/expertise/${service.slug}.svg`)} alt={service.name}></img>
               </div>
               <div>
                 <h2>{service.name}</h2>
-                <p>{service.description}</p>
+                <div dangerouslySetInnerHTML={createMarkup(service.description)}></div>
               </div>
             </article>
           );
         })}
       </div>
     );
+  };
+
+  const createMarkup = (markup) => {
+    return { __html: markup };
   };
 
   return (

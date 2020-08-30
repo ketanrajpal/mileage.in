@@ -17,6 +17,7 @@
       align-self: center;
       display: block;
       width: 500px;
+      padding: 150px 0;
       h1 {
         font-weight: 700;
         font-size: 50px;
@@ -40,5 +41,39 @@
         letter-spacing: 1px;
       }
     }
+  }
+}
+
+div.homeAbout {
+  padding: 100px 0;
+  h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    color: $primary_color;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  p.main {
+    margin-top: 20px;
+    width: 650px;
+    margin: 20px auto;
+    text-align: center;
+    line-height: 150%;
+    font-size: 20px;
+    padding-bottom: 30px;
+  }
+  p.main2 {
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    width: 1000px;
+    margin: 20px auto;
+    text-align: center;
+    line-height: 150%;
+    font-size: 18px;
+    padding-bottom: 30px;
+  }
+  p {
+    line-height: 180% !important;
   }
 }
