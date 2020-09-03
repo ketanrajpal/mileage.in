@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ae6c7079fba36c5b7052a294888112f7",
+    "revision": "8d97771499fa58cf112e6c8e98f2dab1",
     "url": "/mileage.in/index.html"
   },
   {
-    "revision": "c96e061f05d1e8daf807",
+    "revision": "61c75bd768fa72158feb",
     "url": "/mileage.in/static/css/main.8d0dd120.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mileage.in/static/js/2.f2c8c99c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c96e061f05d1e8daf807",
-    "url": "/mileage.in/static/js/main.57db1957.chunk.js"
+    "revision": "61c75bd768fa72158feb",
+    "url": "/mileage.in/static/js/main.29c2634e.chunk.js"
   },
   {
     "revision": "8929a5e4e3c193ba2dd9",
@@ -58,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "75ea3771f568a500734e62b225573aa8",
     "url": "/mileage.in/static/media/19.75ea3771.png"
+  },
+  {
+    "revision": "0fc9c5d59f373b5498d7defd6c2f2bce",
+    "url": "/mileage.in/static/media/2.0fc9c5d5.png"
   },
   {
     "revision": "93605fa7a77484450d2418371cd61422",
@@ -134,10 +138,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "55c5133af6ad51f17442cb65d1f9296d",
     "url": "/mileage.in/static/media/4.55c5133a.png"
-  },
-  {
-    "revision": "0fc9c5d59f373b5498d7defd6c2f2bce",
-    "url": "/mileage.in/static/media/40.0fc9c5d5.png"
   },
   {
     "revision": "2df4ba8e2f281961aa9d1143f18ac595",
