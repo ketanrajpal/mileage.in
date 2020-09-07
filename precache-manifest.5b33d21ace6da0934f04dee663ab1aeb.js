@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c775b2a59668dc64ed1e484516b2cb25",
+    "revision": "f52ac8924ac48c6e838c69d167d4389b",
     "url": "/mileage.in/index.html"
   },
   {
-    "revision": "b909682a8f7a00b2c1c5",
+    "revision": "8af18cf9de5517b3ce70",
     "url": "/mileage.in/static/css/main.8d0dd120.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mileage.in/static/js/2.f2c8c99c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b909682a8f7a00b2c1c5",
-    "url": "/mileage.in/static/js/main.4006989d.chunk.js"
+    "revision": "8af18cf9de5517b3ce70",
+    "url": "/mileage.in/static/js/main.f1719adc.chunk.js"
   },
   {
     "revision": "8929a5e4e3c193ba2dd9",
@@ -216,8 +216,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mileage.in/static/media/media-training-and-crisis-communication.e5d7b657.svg"
   },
   {
-    "revision": "5405d77c51fb46a0cbf26cb96fe4da4d",
-    "url": "/mileage.in/static/media/patsy-phay.5405d77c.jpg"
+    "revision": "71d7d3bb1fb3bfcc53018fd287178a3c",
+    "url": "/mileage.in/static/media/patsy-phay.71d7d3bb.jpg"
   },
   {
     "revision": "df058f4224dcc22f1453e91296a2ba83",
@@ -264,7 +264,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mileage.in/static/media/videesh-tyagi.329f236b.jpg"
   },
   {
-    "revision": "5405d77c51fb46a0cbf26cb96fe4da4d",
-    "url": "/mileage.in/static/media/yap-boh-tiong.5405d77c.jpg"
+    "revision": "664f43d2b5dabe685f18be2b82741bf1",
+    "url": "/mileage.in/static/media/yap-boh-tiong.664f43d2.jpg"
   }
 ]);
