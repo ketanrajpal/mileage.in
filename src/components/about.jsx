@@ -38,7 +38,6 @@ export default () => {
 
   return (
     <section className="about">
-      <h1>About Mileage Communications Group</h1>
       <p className="main">
         We believe in remaining proactive and alert at all times by providing quality value-added services to our clients, and to retain our leading
         position as a PR consultancy

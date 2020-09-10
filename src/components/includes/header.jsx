@@ -19,8 +19,11 @@ const HeaderComponent = () => {
             <NavLink to="/about" activeClassName="current">
               <span className="fa fa-chess-rook"></span>About
             </NavLink>
-            <NavLink to="/expertise" activeClassName="current">
-              <span className="fa fa-chess"></span>Expertise
+            <NavLink to="/clients" activeClassName="current">
+              <span className="fa fa-chess-rook"></span>Clients
+            </NavLink>
+            <NavLink to="/services" activeClassName="current">
+              <span className="fa fa-chess"></span>Services
             </NavLink>
             <NavLink to="/team" activeClassName="current">
               <span className="fa fa-users"></span>Team

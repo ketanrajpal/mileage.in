@@ -48,16 +48,19 @@ export default () => {
       },
     ];
     return (
-      <div>
+      <div className="coloumns">
         {data.map((service, index) => {
           return (
             <article key={index}>
-              <div>
-                <img src={require(`../assets/img/expertise/${service.slug}.svg`)} alt={service.name}></img>
-              </div>
-              <div>
+              <div className="cover">
                 <h2>{service.name}</h2>
-                <div dangerouslySetInnerHTML={createMarkup(service.description)}></div>
+                <img src={require(`../assets/img/expertise/${service.slug}.svg`)} alt={service.name}></img>
+                <div className="content">
+                  <div className="container">
+                    <h2>{service.name}</h2>
+                    <div dangerouslySetInnerHTML={createMarkup(service.description)}></div>
+                  </div>
+                </div>
               </div>
             </article>
           );
@@ -73,7 +76,7 @@ export default () => {
   return (
     <div className="expertise">
       <section>
-        <h1>We Expertise in</h1>
+        <h1>Our Expertise</h1>
         {services()}
       </section>
     </div>

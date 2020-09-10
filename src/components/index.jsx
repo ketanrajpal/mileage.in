@@ -1,24 +1,27 @@
 import React from "react";
 
+import Background from "../assets/img/artwork.svg";
+
 const IndexComponent = () => {
   return (
     <>
       <div className="index">
-        <section className="animate__animated animate__zoomIn">
-          <div className="description">
+        <section>
+          <div className="container">
             <h1>The Mileage Communications Group</h1>
             <h2>We go the extra mile for you</h2>
             <p>
               A full-service strategic marketing communications, PR and representation company. An equity joint venture with Mileage Communications,
-              Singapore. A member of Pinnacle Worldwide - a global network of PR agencies
+              Singapore.
             </p>
           </div>
         </section>
+        <section>
+          <img src={Background} alt="Mileage Communications"></img>
+        </section>
       </div>
-
       <div className="homeAbout">
-        <h1>About Mileage Communications Group</h1>
-        <p className="main2">
+        <p>
           A leading Public Relations agency, Mileage Communications India has been an industry leader handling a range of industry sectors such as
           travel/tourism/ hospitality; consumer / lifestyle; corporate finance / investor relations / IPOs; InfoComm/technology, biotech / healthcare
           / pharmaceutical; education; auto industry and shipping. Mileage is also member of the MTI Network, which is a global network of Public

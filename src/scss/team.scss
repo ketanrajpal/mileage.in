@@ -1,8 +1,12 @@
 .team {
   section {
-    width: 70%;
+    width: 90%;
     margin: auto;
     padding: 150px 0;
+    .teamPicture {
+      border-radius: 50%;
+      border: 2px solid $primary_color;
+    }
     h1 {
       font-weight: 700;
       font-size: 50px;

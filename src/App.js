@@ -7,6 +7,7 @@ import FooterComponent from "./components/includes/footer";
 
 import IndexComponent from "./components/index";
 import AboutComponent from "./components/about";
+import ClientComponent from "./components/clients";
 import ExpertiseComponent from "./components/expertise";
 import TeamComponent from "./components/team";
 import ContactComponent from "./components/contact";
@@ -23,7 +24,10 @@ function App() {
           <Route path="/about">
             <AboutComponent></AboutComponent>
           </Route>
-          <Route path="/expertise">
+          <Route path="/clients">
+            <ClientComponent></ClientComponent>
+          </Route>
+          <Route path="/services">
             <ExpertiseComponent></ExpertiseComponent>
           </Route>
           <Route path="/team">

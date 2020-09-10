@@ -40,7 +40,7 @@ export default () => {
           return (
             <article key={index}>
               <div>
-                <img src={require(`../assets/img/user.png`)} alt={service.name}></img>
+                <img src={require(`../assets/img/team/${service.slug}.jpg`)} alt={service.name} className="teamPicture"></img>
               </div>
               <div>
                 <h2>{service.name}</h2>
