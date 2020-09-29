@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/mileage.in/static/css/main.8d0dd120.chunk.css",
-    "main.js": "/mileage.in/static/js/main.f1719adc.chunk.js",
-    "main.js.map": "/mileage.in/static/js/main.f1719adc.chunk.js.map",
+    "main.css": "/mileage.in/static/css/main.29818256.chunk.css",
+    "main.js": "/mileage.in/static/js/main.72bb3689.chunk.js",
+    "main.js.map": "/mileage.in/static/js/main.72bb3689.chunk.js.map",
     "runtime-main.js": "/mileage.in/static/js/runtime-main.b04d062d.js",
     "runtime-main.js.map": "/mileage.in/static/js/runtime-main.b04d062d.js.map",
     "static/js/2.f2c8c99c.chunk.js": "/mileage.in/static/js/2.f2c8c99c.chunk.js",
     "static/js/2.f2c8c99c.chunk.js.map": "/mileage.in/static/js/2.f2c8c99c.chunk.js.map",
     "index.html": "/mileage.in/index.html",
-    "precache-manifest.5b33d21ace6da0934f04dee663ab1aeb.js": "/mileage.in/precache-manifest.5b33d21ace6da0934f04dee663ab1aeb.js",
+    "precache-manifest.8b7ac8b94188db354dc6a4b6ec9a0cbe.js": "/mileage.in/precache-manifest.8b7ac8b94188db354dc6a4b6ec9a0cbe.js",
     "service-worker.js": "/mileage.in/service-worker.js",
-    "static/css/main.8d0dd120.chunk.css.map": "/mileage.in/static/css/main.8d0dd120.chunk.css.map",
+    "static/css/main.29818256.chunk.css.map": "/mileage.in/static/css/main.29818256.chunk.css.map",
     "static/js/2.f2c8c99c.chunk.js.LICENSE.txt": "/mileage.in/static/js/2.f2c8c99c.chunk.js.LICENSE.txt",
     "static/media/11.png": "/mileage.in/static/media/11.8064797a.png",
     "static/media/12.png": "/mileage.in/static/media/12.73485167.png",
@@ -77,7 +77,7 @@
   "entrypoints": [
     "static/js/runtime-main.b04d062d.js",
     "static/js/2.f2c8c99c.chunk.js",
-    "static/css/main.8d0dd120.chunk.css",
-    "static/js/main.f1719adc.chunk.js"
+    "static/css/main.29818256.chunk.css",
+    "static/js/main.72bb3689.chunk.js"
   ]
 }
