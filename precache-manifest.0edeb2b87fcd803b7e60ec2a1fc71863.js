@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fed2168c2f7cd65c954b035667fee45b",
+    "revision": "66fc0168417c4bae1b08e1536bd81880",
     "url": "/mileage.in/index.html"
   },
   {
-    "revision": "e011a61ff5787020c506",
-    "url": "/mileage.in/static/css/main.85e53a4a.chunk.css"
+    "revision": "d9448739361e3e650976",
+    "url": "/mileage.in/static/css/main.4dac51b2.chunk.css"
   },
   {
-    "revision": "11c3fd4088f40f13976f",
-    "url": "/mileage.in/static/js/2.dae7e24f.chunk.js"
+    "revision": "81aea43ea1938be855de",
+    "url": "/mileage.in/static/js/2.cf0001bb.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/mileage.in/static/js/2.dae7e24f.chunk.js.LICENSE.txt"
+    "url": "/mileage.in/static/js/2.cf0001bb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e011a61ff5787020c506",
-    "url": "/mileage.in/static/js/main.b91a49b3.chunk.js"
+    "revision": "d9448739361e3e650976",
+    "url": "/mileage.in/static/js/main.ef3f82d0.chunk.js"
   },
   {
     "revision": "8929a5e4e3c193ba2dd9",
@@ -260,8 +260,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mileage.in/static/media/sheema-vohra.eb92db11.jpg"
   },
   {
-    "revision": "3343496ec265752f6b6c44ad758d1349",
-    "url": "/mileage.in/static/media/shipping.3343496e.jpg"
+    "revision": "6360a4e7a585fb6ae4ffad02831e46ba",
+    "url": "/mileage.in/static/media/shipping.6360a4e7.jpg"
   },
   {
     "revision": "f06da36ed201b11c771eeb75b11b7458",
