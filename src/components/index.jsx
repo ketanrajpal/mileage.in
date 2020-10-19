@@ -1,10 +1,23 @@
 import React from "react";
+import ReactHelmet from "react-helmet";
 
 import Background from "../assets/img/artwork.svg";
 
 const IndexComponent = () => {
   return (
     <>
+      <ReactHelmet>
+        <meta charSet="utf-8" />
+        <title>Mileage Communications Group | Public Relations agency</title>
+        <link rel="canonical" href="https://www.mileage.in" />
+        <meta
+          name="description"
+          content="A full-service strategic marketing communications, PR and representation company. An equity joint venture with Mileage Communications,
+              Singapore."
+        />
+        <meta name="keywords" content="" />
+        <meta name="author" content="Mileage Communications Group" />
+      </ReactHelmet>
       <div className="index">
         <section>
           <div className="container">
@@ -28,10 +41,10 @@ const IndexComponent = () => {
           Relations agencies working on crisis communication, incident management and crisis training for the shipping industry.
           <br />
           <br />
-          Mileage Communications India is also a member of the Public Relations Global Network (PRGN), an international alliance of more than 50
-          leading independent, owner-operated public relations agencies working together to serve clients’ needs with deep local incites,
-          simultaneously sharing best practices on a global level. Mileage Communications India has a network of offices across India and branches
-          across the Asian region.
+          Mileage Communications India is a member of the Public Relations Global Network (PRGN), an international alliance of more than 50 leading
+          independent, owner-operated public relations agencies working together to serve clients’ needs with deep local insights, simultaneously
+          sharing best practices on a global level. Mileage Communications India has a network of offices across India and branches across the Asian
+          region.
         </p>
       </div>
     </>

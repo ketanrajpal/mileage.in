@@ -16,9 +16,6 @@ const HeaderComponent = () => {
             <NavLink to="/" activeClassName="current" exact={true}>
               <span className="fa fa-home"></span>Home
             </NavLink>
-            <NavLink to="/about" activeClassName="current">
-              <span className="fa fa-chess-rook"></span>About
-            </NavLink>
             <NavLink to="/clients" activeClassName="current">
               <span className="fa fa-chess-rook"></span>Clients
             </NavLink>

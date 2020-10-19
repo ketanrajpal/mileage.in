@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ReactHelmet from "react-helmet";
 
 export default () => {
   const [Contacts] = useState([
@@ -64,6 +65,18 @@ export default () => {
 
   return (
     <>
+      <ReactHelmet>
+        <meta charSet="utf-8" />
+        <title>Mileage Communications Group | Contact</title>
+        <link rel="canonical" href="https://www.mileage.in/contact" />
+        <meta
+          name="description"
+          content="A full-service strategic marketing communications, PR and representation company. An equity joint venture with Mileage Communications,
+              Singapore."
+        />
+        <meta name="keywords" content="" />
+        <meta name="author" content="Mileage Communications Group" />
+      </ReactHelmet>
       <iframe
         title="Google Map"
         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14023.0519485945!2d77.1979019!3d28.5167778!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x205402ff351b9a7b!2sMileage%20Communications%20India%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1598551359982!5m2!1sen!2sin"

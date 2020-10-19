@@ -1,6 +1,6 @@
 import React from "react";
 
-import { HashRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 import HeaderComponent from "./components/includes/header";
 import FooterComponent from "./components/includes/footer";
@@ -14,14 +14,12 @@ import ContactComponent from "./components/contact";
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <div className="App">
         <HeaderComponent></HeaderComponent>
         <Switch>
           <Route path="/" exact>
             <IndexComponent></IndexComponent>
-          </Route>
-          <Route path="/about">
             <AboutComponent></AboutComponent>
           </Route>
           <Route path="/clients">
@@ -39,7 +37,7 @@ function App() {
         </Switch>
         <FooterComponent></FooterComponent>
       </div>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
