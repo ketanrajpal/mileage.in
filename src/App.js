@@ -11,6 +11,7 @@ import ClientComponent from "./components/clients";
 import ExpertiseComponent from "./components/expertise";
 import TeamComponent from "./components/team";
 import ContactComponent from "./components/contact";
+import NotFoundComponent from "./components/404";
 
 function App() {
   return (
@@ -33,6 +34,9 @@ function App() {
           </Route>
           <Route path="/contact">
             <ContactComponent></ContactComponent>
+          </Route>
+          <Route path="*">
+            <NotFoundComponent></NotFoundComponent>
           </Route>
         </Switch>
         <FooterComponent></FooterComponent>

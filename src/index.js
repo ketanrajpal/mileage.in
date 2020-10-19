@@ -1,15 +1,26 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { hydrate, render } from "react-dom";
 import "./scss/default.scss";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById("root")
-);
+const RootElement = document.getElementById("root");
+
+if (RootElement.hasChildNodes()) {
+  hydrate(
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>,
+    RootElement
+  );
+} else {
+  render(
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>,
+    RootElement
+  );
+}
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
