@@ -37,7 +37,7 @@ const IndexComponent = () => {
         <p>
           A leading Public Relations agency, Mileage Communications India has been an industry leader handling a range of industry sectors such as
           travel/tourism/ hospitality; consumer / lifestyle; corporate finance / investor relations / IPOs; InfoComm/technology, biotech / healthcare
-          / pharmaceutical; education; auto industry and shipping. Mileage is also member of the MTI Network, which is a global network of Public
+          / pharmaceutical; education; auto industry and shipping. Mileage is a member of the MTI Network, which is a global network of Public
           Relations agencies working on crisis communication, incident management and crisis training for the shipping industry.
           <br />
           <br />
