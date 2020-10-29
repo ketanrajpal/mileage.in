@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/mileage.in/static/css/main.a90deaf3.chunk.css",
-    "main.js": "/mileage.in/static/js/main.c9c784eb.chunk.js",
-    "main.js.map": "/mileage.in/static/js/main.c9c784eb.chunk.js.map",
-    "runtime-main.js": "/mileage.in/static/js/runtime-main.b04d062d.js",
-    "runtime-main.js.map": "/mileage.in/static/js/runtime-main.b04d062d.js.map",
-    "static/js/2.dc7fbaca.chunk.js": "/mileage.in/static/js/2.dc7fbaca.chunk.js",
-    "static/js/2.dc7fbaca.chunk.js.map": "/mileage.in/static/js/2.dc7fbaca.chunk.js.map",
+    "main.js": "/mileage.in/static/js/main.913374f2.chunk.js",
+    "main.js.map": "/mileage.in/static/js/main.913374f2.chunk.js.map",
+    "runtime-main.js": "/mileage.in/static/js/runtime-main.7702c705.js",
+    "runtime-main.js.map": "/mileage.in/static/js/runtime-main.7702c705.js.map",
+    "static/js/2.f59e550b.chunk.js": "/mileage.in/static/js/2.f59e550b.chunk.js",
+    "static/js/2.f59e550b.chunk.js.map": "/mileage.in/static/js/2.f59e550b.chunk.js.map",
     "index.html": "/mileage.in/index.html",
-    "precache-manifest.a4fe5b36b522ef7e104c73497064e972.js": "/mileage.in/precache-manifest.a4fe5b36b522ef7e104c73497064e972.js",
+    "precache-manifest.506166b24c39e57401a2932ca0b0e4a3.js": "/mileage.in/precache-manifest.506166b24c39e57401a2932ca0b0e4a3.js",
     "service-worker.js": "/mileage.in/service-worker.js",
     "static/css/main.a90deaf3.chunk.css.map": "/mileage.in/static/css/main.a90deaf3.chunk.css.map",
-    "static/js/2.dc7fbaca.chunk.js.LICENSE.txt": "/mileage.in/static/js/2.dc7fbaca.chunk.js.LICENSE.txt",
+    "static/js/2.f59e550b.chunk.js.LICENSE.txt": "/mileage.in/static/js/2.f59e550b.chunk.js.LICENSE.txt",
     "static/media/1-brand.png": "/mileage.in/static/media/1-brand.9d15effb.png",
     "static/media/1-tourism.png": "/mileage.in/static/media/1-tourism.564d36f5.png",
     "static/media/10-brand.png": "/mileage.in/static/media/10-brand.c6c1d5a8.png",
@@ -82,9 +82,9 @@
     "static/media/yap-boh-tiong.jpg": "/mileage.in/static/media/yap-boh-tiong.664f43d2.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b04d062d.js",
-    "static/js/2.dc7fbaca.chunk.js",
+    "static/js/runtime-main.7702c705.js",
+    "static/js/2.f59e550b.chunk.js",
     "static/css/main.a90deaf3.chunk.css",
-    "static/js/main.c9c784eb.chunk.js"
+    "static/js/main.913374f2.chunk.js"
   ]
 }
