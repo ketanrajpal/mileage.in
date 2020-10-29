@@ -1,68 +1,32 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# The Mileage Communications Group
 
-## Available Scripts
+A full-service strategic marketing communications, PR and representation company. An equity joint venture with Mileage Communications, Singapore.
 
-In the project directory, you can run:
+A leading Public Relations agency, Mileage Communications India has been an industry leader handling a range of industry sectors such as travel/tourism/ hospitality; consumer / lifestyle; corporate finance / investor relations / IPOs; InfoComm/technology, biotech / healthcare / pharmaceutical; education; auto industry and shipping. Mileage is a member of the MTI Network, which is a global network of Public Relations agencies working on crisis communication, incident management and crisis training for the shipping industry.
 
-### `npm start`
+Mileage Communications India is a member of the Public Relations Global Network (PRGN), an international alliance of more than 50 leading independent, owner-operated public relations agencies working together to serve clients’ needs with deep local insights, simultaneously sharing best practices on a global level. Mileage Communications India has a network of offices across India and branches across the Asian region.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Our Divisions
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+1. Consumer & Lifestyle
+2. Information Technology
+3. Healthcare / Pharmaceutical / Biotech
+4. Tourism / Aviation / Hospitality
+5. Financial / Investor Relations
+6. Shipping
+7. Sports
+8. Crisis Management
 
-### `npm test`
+## Our Expertise
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Corporate Public Relations and Brand Communications
+2. Social Media and Digital Marketing
+3. Influencer and Blogger Engagement
+4. Media Training & Crisis Communication
+5. Reputation Management
+6. Event Management
+7. Marketing Representation
 
-### `npm run build`
+##
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+For more details visit [mileage.in](https://www.mileage.in)
