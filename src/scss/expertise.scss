@@ -1,6 +1,5 @@
 .expertise {
   section {
-    width: 90%;
     margin: auto;
     padding: 100px 0;
     h1 {
@@ -14,12 +13,10 @@
     }
     div.coloumns {
       display: grid;
-      grid-template-columns: 1fr 1fr;
-
       article {
         background-color: #f5f5f5;
         border: 5px solid #cccccc31;
-        margin: 20px;
+
         padding: 40px;
         position: relative;
         div.cover {
@@ -61,8 +58,7 @@
           div.container {
             width: 90%;
             margin: auto;
-            font-size: 16px;
-            line-height: 170%;
+
             color: #ffffff;
             h2 {
               color: $secondary_color;
@@ -72,6 +68,68 @@
             ul {
               margin-left: 20px;
               margin-top: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 519px) {
+    section {
+      div.coloumns {
+        grid-template-columns: 1fr;
+        margin: 10px;
+        article {
+          div.cover {
+            img {
+              height: 600px;
+            }
+          }
+          div.content {
+            div.container {
+              font-size: 14px;
+              line-height: 160%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (min-width: 520px) and (max-width: 979px) {
+    section {
+      div.coloumns {
+        grid-template-columns: 1fr;
+        article {
+          div.cover {
+            img {
+              height: 600px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (min-width: 980px) and (max-width: 1229px) {
+  }
+
+  @media only screen and (min-width: 1230px) {
+    section {
+      width: 90%;
+      div.coloumns {
+        grid-template-columns: 1fr 1fr;
+        article {
+          margin: 20px;
+          div.cover {
+            img {
+              max-height: 500px;
+            }
+          }
+          div.content {
+            div.container {
+              font-size: 16px;
+              line-height: 170%;
             }
           }
         }

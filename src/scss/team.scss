@@ -2,7 +2,6 @@
   section {
     width: 90%;
     margin: auto;
-    padding: 150px 0;
     .teamPicture {
       border-radius: 50%;
       border: 2px solid $primary_color;
@@ -20,7 +19,7 @@
     }
     article {
       display: grid;
-      grid-template-columns: 300px 1fr;
+
       div {
         padding: 40px 0;
         &:nth-child(1) {
@@ -36,7 +35,6 @@
         }
         h2 {
           font-weight: 500;
-          font-size: 30px;
           line-height: 130%;
           color: $primary_color;
           margin-bottom: 30px;
@@ -45,34 +43,87 @@
           a {
             font-size: 20px;
             line-height: 30px;
-            margin-left: 20px;
+
             color: rgba(0, 0, 0, 0.5);
             &:hover {
               color: rgba(0, 0, 0, 0.8);
             }
           }
         }
-        font-size: 17px;
+
         line-height: 180%;
         color: rgba(0, 0, 0, 0.8);
         letter-spacing: 1px;
       }
+    }
+  }
 
-      &:nth-child(odd) {
-        display: grid;
-        grid-template-columns: 300px 1fr;
-      }
-
-      &:nth-child(even) {
-        display: grid;
-        grid-template-columns: 1fr 300px;
-        div:nth-child(1) {
-          grid-column: 2;
-          grid-row: 1;
+  @media only screen and (max-width: 519px) {
+    section {
+      padding: 50px 0;
+      article {
+        h2 {
+          font-size: 18px;
+          a {
+            margin-left: 10px;
+          }
         }
-        div:nth-child(2) {
-          grid-column: 1;
-          grid-row: 1;
+        div {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+
+  @media only screen and (min-width: 520px) and (max-width: 979px) {
+    section {
+      padding: 50px 0;
+      article {
+        h2 {
+          font-size: 18px;
+          a {
+            margin-left: 10px;
+          }
+        }
+        div {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+
+  @media only screen and (min-width: 980px) and (max-width: 1229px) {
+  }
+
+  @media only screen and (min-width: 1230px) {
+    section {
+      padding: 150px 0;
+      article {
+        h2 {
+          font-size: 30px;
+          a {
+            margin-left: 20px;
+          }
+        }
+        div {
+          font-size: 17px;
+        }
+        grid-template-columns: 300px 1fr;
+        &:nth-child(odd) {
+          display: grid;
+          grid-template-columns: 300px 1fr;
+        }
+        &:nth-child(even) {
+          display: grid;
+          grid-template-columns: 1fr 300px;
+          div:nth-child(1) {
+            grid-column: 2;
+            grid-row: 1;
+          }
+          div:nth-child(2) {
+            grid-column: 1;
+            grid-row: 1;
+          }
         }
       }
     }

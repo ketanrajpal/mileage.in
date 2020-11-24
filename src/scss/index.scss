@@ -2,20 +2,19 @@
   margin: auto;
   width: 90%;
   display: grid;
-  grid-template-columns: 500px 1fr;
+
   section {
-    padding: 50px 0;
     align-self: center;
     h1 {
       font-weight: 700;
-      font-size: 50px;
+
       line-height: 130%;
       color: $primary_color;
       letter-spacing: 1px;
     }
     h2 {
       font-weight: 500;
-      font-size: 30px;
+
       line-height: 130%;
       color: $primary_color;
       margin: 30px 0;
@@ -23,24 +22,94 @@
       color: $secondary_color;
     }
     p {
-      font-size: 17px;
       line-height: 180%;
       letter-spacing: 1px;
+    }
+  }
+  @media only screen and (max-width: 519px) {
+    grid-template-columns: 1fr;
+    section {
+      padding-bottom: 30px;
+      h1 {
+        font-size: 40px;
+      }
+      h2 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 15px;
+      }
+    }
+  }
+
+  @media only screen and (min-width: 520px) and (max-width: 979px) {
+    grid-template-columns: 1fr;
+    section {
+      padding-bottom: 30px;
+      h1 {
+        font-size: 40px;
+      }
+      h2 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 15px;
+      }
+    }
+  }
+
+  @media only screen and (min-width: 980px) and (max-width: 1229px) {
+  }
+
+  @media only screen and (min-width: 1230px) {
+    grid-template-columns: 500px 1fr;
+    section {
+      padding: 50px 0;
+      h1 {
+        font-size: 50px;
+      }
+      h2 {
+        font-size: 30px;
+      }
+      p {
+        font-size: 17px;
+      }
     }
   }
 }
 
 div.homeAbout {
   p {
-    width: 80%;
     margin: 20px auto;
     text-align: center;
     line-height: 150%;
-    font-size: 20px;
     padding-bottom: 30px;
   }
 
   p {
     line-height: 180% !important;
+  }
+  @media only screen and (max-width: 519px) {
+    p {
+      width: 90%;
+      font-size: 15px;
+    }
+  }
+
+  @media only screen and (min-width: 520px) and (max-width: 979px) {
+    p {
+      width: 90%;
+      font-size: 15px;
+    }
+  }
+
+  @media only screen and (min-width: 980px) and (max-width: 1229px) {
+  }
+
+  @media only screen and (min-width: 1230px) {
+    p {
+      width: 80%;
+      font-size: 20px;
+    }
   }
 }

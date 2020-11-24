@@ -13,16 +13,13 @@ section.contact {
   }
   p {
     margin-top: 20px;
-    width: 700px;
     margin: 20px auto;
     text-align: center;
     line-height: 150%;
-    font-size: 20px;
     padding-bottom: 30px;
   }
   section {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     .contact {
       padding: 10px 20px;
       div {
@@ -49,6 +46,31 @@ section.contact {
         font-size: 14px !important;
         color: rgba(0, 0, 0, 0.5);
         margin-top: 10px;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 519px) {
+    section {
+      grid-template-columns: 1fr;
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+
+  @media only screen and (min-width: 520px) and (max-width: 979px) {
+  }
+
+  @media only screen and (min-width: 980px) and (max-width: 1229px) {
+  }
+
+  @media only screen and (min-width: 1230px) {
+    section {
+      grid-template-columns: 1fr 1fr 1fr;
+      p {
+        width: 700px;
+        font-size: 20px;
       }
     }
   }
