@@ -6,7 +6,7 @@ export default () => {
     {
       name: "Mileage Communications (India) Pvt. Ltd.",
       data: "261 (First Floor) Lane 5, Westend Marg,<br>Saidulajab, New Delhi - 110030<br>Delhi",
-      phone: "+ (91) 72900-50770",
+      phone: "+ (91) 72-90050-764",
       country: "India",
     },
     {
