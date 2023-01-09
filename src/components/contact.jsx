@@ -5,8 +5,8 @@ export default () => {
   const [Contacts] = useState([
     {
       name: "Mileage Communications (India) Pvt. Ltd.",
-      data: "261 (First Floor) Lane 5, Westend Marg,<br>Saidulajab, New Delhi - 110030<br>Delhi",
-      phone: "+ (91) 72-90050-764",
+      data: " M-6(First Floor) Hauz Khas,<br>Aurobindo Marg, New Delhi - 110016<br>Delhi",
+      phone: "+ (91) 11 49401916",
       country: "India",
     },
     {
