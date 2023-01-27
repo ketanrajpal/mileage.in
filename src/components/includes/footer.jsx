@@ -22,9 +22,9 @@ export default () => {
           <h2>Reach us at</h2>
           Mileage Communication (India) Pvt. Ltd.
           <br />
-          261 (First Floor) Lane 5, Westend Marg,
+          M-6 (First Floor), Hauz Khas,
           <br />
-          Saidulajab, New Delhi &ndash; 110030, Delhi, India
+          Aurobindo Marg, New Delhi &ndash; 110016 India
           <br />
           <br />
           <span>Email.</span> <a href="mailto:info@mileage.in">info@mileage.in</a>
