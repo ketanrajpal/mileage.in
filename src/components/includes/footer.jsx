@@ -29,7 +29,7 @@ export default () => {
           <br />
           <span>Email.</span> <a href="mailto:info@mileage.in">info@mileage.in</a>
           <br />
-          <span>Phone.</span> <a href="tel:+917290050764">+ (91) 7290050764</a>
+          <span>Phone.</span> <a href="tel:+911149401916">+ (91) 11-49401916</a>
         </div>
 
         <div>
