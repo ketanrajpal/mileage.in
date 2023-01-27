@@ -28,13 +28,13 @@ const HeaderComponent = () => {
             <NavLink to="/contact" activeClassName="current">
               <span className="fa fa-at"></span>Contact
             </NavLink>
-            <a href="https://www.facebook.com/mileagecommunications" rel="noopener noreferrer" target="_blank">
+            <a href="https://www.facebook.com/mileagecommunicationsindia" rel="noopener noreferrer" target="_blank">
               <span className="fab fa-facebook"></span>
             </a>
-            <a href="https://www.instagram.com/mileagecommunication/" rel="noopener noreferrer" target="_blank">
+            <a href="https://instagram.com/mileagecommunicationsindia" rel="noopener noreferrer" target="_blank">
               <span className="fab fa-instagram"></span>
             </a>
-            <a href="https://www.linkedin.com/company/mileage-communications-india" rel="noopener noreferrer" target="_blank">
+            <a href="https://www.linkedin.com/company/mileage-communications-india/" rel="noopener noreferrer" target="_blank">
               <span className="fab fa-linkedin"></span>
             </a>
           </nav>
