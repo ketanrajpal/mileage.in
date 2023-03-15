@@ -15,7 +15,7 @@ export default () => {
           <br />{" "}
           <span>
             &copy; Mileage Communication (India) Pvt. Ltd.
-            <br /> All rights reserved 2019.
+            <br /> All rights reserved {new Date().getFullYear()}.
           </span>
         </div>
         <div>
